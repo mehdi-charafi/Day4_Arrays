@@ -1,4 +1,4 @@
-const nums = [2, 0, 3, 6];
+const nums = [7, 11 , 15, 6];
 let max = 0;
 
 for (let i of nums) {
@@ -20,4 +20,4 @@ for (let i of nums) {
     sum += i
 }
 
-console.log(sum)
+console.log(sum / nums.length - 1)
